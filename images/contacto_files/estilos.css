@@ -5,6 +5,9 @@
     padding: 0;
 }
 
+div{
+    background-color: #ff000d;
+}
 
 
 .logo{
@@ -50,27 +53,10 @@ nav a:hover{
 
 
 
-.card-layout{
-    display: grid;
-    
-    grid-template-rows: auto  ;
-    align-content: center;
-    justify-content:space-around
-}
 
-.card{   
-    background-color: rgb(26, 26, 26);
-    border-radius: 10px 50px 23px;
-    border: 12px dashed rgb(29, 29, 29);
-}
 
-body {
-    background-color: #3f0003;    
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-weight: bolder;
-    text-transform: uppercase;
-}
+
+
 
 ul{
     padding: 10px;
@@ -110,7 +96,7 @@ h1 {
 }
 
 .INTERNACIONAL1 {
-    color: rgb(202, 199, 199);
+    color: rgb(46, 31, 31);
 }
 
 
@@ -172,13 +158,7 @@ p{
 
 
 
-div {
 
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    
-
-}
 
 
 .flex_conteiner {
@@ -275,12 +255,12 @@ div {
     grid-area: main;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    ¡
+    
 }
 
 .inicio:hover {
     transform: scale(1.1);
-    transition:all, 1s
+    transition: all, 1s
 }
 
 .ini:hover {
@@ -451,13 +431,7 @@ div {
         align-items:center;
     }
 
-    .card-layout{
-        display: grid;
-        grid-template-columns: auto auto ;
-        grid-template-rows: auto auto  ;
-        align-content: center;
-        justify-content:space-around
-    }
+    
     
     .card{   
         background-image: url(../images/mapa2-01.png);
@@ -511,17 +485,10 @@ div {
         background-position: center;
     }
 
-    div {
-
-        text-decoration: none;
-        color: rgb(199, 60, 60);
-        
-        margin: 10px;
-
-    }
+    
 
     .flex_conteiner {
-        flex-direction: ;
+        
         flex-wrap: wrap;
         background-repeat: no-repeat;
         background-position: center;
@@ -540,13 +507,8 @@ div {
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 @media (min-width:1024px){
 
-
-.nab{   
-    background-image: url(../images/LOGO_INFORME_CAPITAL_2021_BLANCO.png);
-    border-radius: 60px 20px 5px;
-    border:10px double #ffffff;
     
-}
+
 
 .logo{
     display: flex;
@@ -567,7 +529,6 @@ body {
     text-align: center;
     font-weight: bolder;
     text-transform: uppercase;
-    
     flex-direction: column;
     min-height: 100vh;
     align-items: stretch;
@@ -576,18 +537,9 @@ body {
     align-items:center;
 }
 
-.card-layout{
-    display: grid;
-    grid-template-columns: auto auto ;
-    grid-template-rows: auto auto  ;
-    align-content: center;
-    justify-content:center;
-}
 
-.card{   
-    background-image: url(../images/mapa2-01.png);
-    
-}
+
+
 
 
 .card-title{
